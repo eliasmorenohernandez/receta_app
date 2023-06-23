@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+    * @description      : 
+    * @author           : Admin
+    * @group            : 
+    * @created          : 19/06/2023 - 22:49:26
+    * 
+    * MODIFICATION LOG
+    * - Version         : 1.0.0
+    * - Date            : 19/06/2023
+    * - Author          : Admin
+    * - Modification    : 
+**/
 
-function App() {
+import RecetaList from "./components/RecetaList";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <RecetaList />
     </div>
   );
 }
